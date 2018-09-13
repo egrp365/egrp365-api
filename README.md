@@ -5,7 +5,7 @@ Client for API https://egrp365.ru. For more information go to the https://egrp36
 Usage
 -----
 ```js
-let Egrp365 = new (require('egrp365'))('{apiKey}')
+let Egrp365 = new (require('egrp365-api'))('{apiKey}')
 
 // https://egrp365.ru/api.php#getDocs
 Egrp365.getDocs().then(function (result) {
