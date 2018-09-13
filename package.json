@@ -1,0 +1,20 @@
+{
+  "name": "egrp365-api",
+  "version": "0.0.1",
+  "description": "Client for API https://egrp365.ru",
+  "homepage": "https://egrp365.ru/api.php",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/egrp365/egrp365-api/master/LICENSE"
+    }
+  ],
+  "main": "./lib/egrp365",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egrp365/egrp365-api.git"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
